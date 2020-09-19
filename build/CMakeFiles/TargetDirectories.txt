@@ -1,3 +1,0 @@
-/home/aliceint/c_cpp/webServe/NotePadWebServer/build/CMakeFiles/rebuild_cache.dir
-/home/aliceint/c_cpp/webServe/NotePadWebServer/build/CMakeFiles/edit_cache.dir
-/home/aliceint/c_cpp/webServe/NotePadWebServer/build/CMakeFiles/NotePadWebServer.dir
