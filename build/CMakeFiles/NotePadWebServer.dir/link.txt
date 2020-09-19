@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/NotePadWebServer.dir/main/main.cpp.o CMakeFiles/NotePadWebServer.dir/common/log/ZLog.cpp.o -o NotePadWebServer 
