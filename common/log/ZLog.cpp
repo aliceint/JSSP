@@ -10,6 +10,7 @@
 #include <ctime>
 #include <iostream>
 #include <fstream>
+#include "ZLogWriter.h"
 
 #ifdef __LINUX__
 #include <unistd.h> //access
@@ -128,7 +129,7 @@ void pringLog(E_LOG_LEVEL level, std::string log)
         }
         else
         {
-            std::string log_path = "./log";
+            /*std::string log_path = "./log";
             #ifdef __LINUX__
             if (access (log_path.c_str(), F_OK) != 0)
             {
@@ -158,7 +159,9 @@ void pringLog(E_LOG_LEVEL level, std::string log)
 
             std::ofstream ofs(log_file, std::ios::binary | std::ios::app);
             ofs<<log<<"\n";
-            ofs.close();
+            ofs.close();*/
+
+            ZLogWriter::Instance()->Write(log);
         }
     }
 }
